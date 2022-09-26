@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pur1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+
+        >
+
+        <LinearLayout
+            android:id="@+id/addStudentinfoID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+
+
+            >
+            <TextView
+                android:id="@+id/showfirstnameID"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job info"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/ShowSecondName"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_location_on_24"
+                android:ems="20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/salaryViewID"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_attach_money_24"
+                android:ems="20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salary"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/jobtypeID"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_business_center_24"
+                android:ems="20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Type"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/deadlineViewID"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:ems="20"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="InterView Date"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/jobExperiencePreviewID"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:ems="20"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/otherActivityPreviewID"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_baseline_date_range_24"
+                android:ems="20"
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Location"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/interviewViewID"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="interview"-->
+
+            <!--                />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/informationViewID"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Location"-->
+
+            <!--                />-->
+            <!--            <TextView-->
+            <!--                android:id="@+id/otherbenefitViewID"-->
+            <!--                android:layout_marginLeft="10dp"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Location"-->
+
+            <!--                />-->
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

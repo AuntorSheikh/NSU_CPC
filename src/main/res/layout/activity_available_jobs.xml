@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".AvailableJobs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pur1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/nuslogo" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Hello,"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/studentNameID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Student name"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:iconifiedByDefault="false"
+        android:queryHint="What are you looking for?">
+
+
+    </SearchView>
+
+
+    <ListView
+        android:id="@+id/listviewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:dividerHeight="8dp"
+        android:listSelector="@color/purple_200"
+        android:orientation="vertical"
+
+
+        >
+
+
+    </ListView>
+
+
+</LinearLayout>

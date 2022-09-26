@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nsu_cpc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=" NSU_CPC"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NSU_CPC">
+        <activity android:name=".CompanyOption"></activity>
+        <activity android:name=".CheckCV" />
+        <activity android:name=".FullJobPreview" />
+        <activity android:name=".StudentProfileUpdate" />
+        <activity android:name=".StudentOptions" />
+        <activity android:name=".PostJobs" />
+        <activity android:name=".SendCV" />
+        <activity android:name=".CompanyLogin" />
+        <activity android:name=".CompanySignUp" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AdminOptions" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".AvailableJobs" />
+        <activity android:name=".StudentSignUp" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
